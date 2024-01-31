@@ -1,6 +1,5 @@
-//Variable Declarations
-const inputBox = document.getElementById("input-box");   //Represents an input element in the HTML document
-const listContainer = document.getElementById("list-container");    //Represents a container element in the HTML document
+const inputBox = document.getElementById("input-box");
+const listContainer = document.getElementById("list-container");
 
 function addTask() {
     if (inputBox.value === '') {
